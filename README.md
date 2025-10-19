@@ -1,2 +1,0 @@
-# InGameLogger
-DebugLogのような表現をインゲームで表現として利用できるようにする
