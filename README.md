@@ -4,8 +4,7 @@ https://github.com/user-attachments/assets/77652547-f48b-4959-8655-370f4add9390
 
 # 実現したいこと
 debugLogのような表現をインゲームでビジュアルとして利用
-
-映像としてよく（？）見かける、コンソール画面を文字列がブワーッと流れる感じをやりたかった
+映像としてちょこちょこ（？）見かける、コンソール画面を文字列がブワーッと流れる感じをやりたかった
 
 # できること
 
@@ -20,11 +19,12 @@ debugLogのような表現をインゲームでビジュアルとして利用
 1. プラグインをインポート
 2. BP_InGameLoggerをレベル上に配置
 3. 適当なActorからIGL_AddLineやIGL_AddTextToLineを呼び出し、引数に文字列を渡す
-  - 実装例：Level Blueprintなどに以下のようなノード設置してみてください
-  - <img width="726" height="463" alt="image" src="https://github.com/user-attachments/assets/8a0a6af8-ba87-4ca5-bc7a-5de2406972fa" />
-
-    
-        
+    - 実装例：Level Blueprintなどに以下のようなノード設置してみてください
+     <img width="726" height="463" alt="image" src="https://github.com/user-attachments/assets/8a0a6af8-ba87-4ca5-bc7a-5de2406972fa" />
 
 # 環境
 UE5.5.4で作成。他のバージョンでは未確認
+
+もう少し詳しいことは以下にもまとめています。
+
+https://www.notion.so/Plugin-InGameLogger-23c40f731aea8039bd2be16b95cb8ce9?source=copy_link
